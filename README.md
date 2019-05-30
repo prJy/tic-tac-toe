@@ -1,9 +1,16 @@
 # VanillaJS Tic Tac Toe Game
 This is my personal version of the game tic tac toe created using only vanilla javascript.
 
+## Demo
+
+Check the game running:
+
+[https://prjy.github.io/tic-tac-toe](https://prjy.github.io/tic-tac-toe)
+
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine.
+These instructions will get you a copy of the project up and running on your local machine
 
 Clone the project using: 
 
