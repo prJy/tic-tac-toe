@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+}
+
+#container {
+    width: 530px;
+    margin: 0 auto;
+}
+
+#prjy-game {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;    
+}
+
+.started {
+    color: #ff0000;
+    font-size: 80px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    /*background: #fff;
+    border: 1px solid #000;*/
+}
+
+.started  > div {
+  border: 6px solid #2c3e50;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#div0 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#div1 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#div2 {
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom: none;
+}
+
+#div3 {
+    border-left: none;
+    border-bottom: none;
+}
+
+#div4 {
+    border-bottom:none;   
+    border-left: none;  
+    border-bottom: none;
+}
+
+#div5 {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+#div6 {
+    border-left: none;
+    border-bottom: none;
+}
+
+#div7 {
+    border-left:none;    
+    border-bottom:none;
+}
+
+#div8 {
+    border-right: none;
+    border-bottom: none;
+    border-left:none;
+}
+#btnStartGame {
+    background: #26a9b1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    width: 100px;
+    color: #fff;
+    cursor: pointer;
+}
+#btnStartGame:disabled {
+    background: #eee;    
+    margin: 0 auto;
+    color: #969696;
+    cursor: default;
+}
+
+#prjy-panel {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#panel {
+    width: 400px;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+#prjy-scoreBoard {
+    width: 500px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #000;
+    font-family: monospace;
+    float: left;
+    font-weight: bold;
+    min-height: 40px;
+}
+
+#playerOne, #playerTwo {
+    width: 45%;
+    position: relative;
+}
+
+#playerOne {
+    float: left;
+}
+
+#playerTwo {
+    float: right;
+}
+
+#prjy-scoreBoard > div {
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+}
+
+#prjy-scoreBoard .score {
+    background: #000;
+    color: #fff;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    top: -4px
+}
+
+.score-player1 {
+    position: absolute;
+    left: 10px
+}
+
+.score-player2 {
+    position: absolute;
+    right: 10px
+}
