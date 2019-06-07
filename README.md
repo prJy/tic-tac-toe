@@ -10,30 +10,19 @@ Check the game running:
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine
-
-Clone the project using: 
-
-```
+``` bash
+# copy project
 git clone https://github.com/prJy/tic-tac-toe.git
-```
 
-Install packages using:
-
-```
+# install dependencies
 npm install
-```
 
-Use the command:
-
-```
+# build static files using
 gulp build
 ```
-To create the static files in /dist.
-
-You can also run the project from the src/index.html.
 
 ## Build with:
+
 - Vanilla JavaScript
 - Gulp (Dist Only)
 
